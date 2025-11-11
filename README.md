@@ -29,16 +29,16 @@ git clone https://github.com/your-username/talent-directory.git
 cd talent-directory
 
 ** Setup backend
-cd backend
-npm install
-cp .env.example .env
-( Add your MongoDB connection string)
-npm run dev
+- cd backend
+- npm install
+- cp .env.example .env
+--( Add your MongoDB connection string)
+ - npm run dev
 
 ** setup frontend 
-cd frontend
-npm install
-cp .env.example .env
+- cd frontend
+- npm install
+- cp .env.example .env
 (Add your backend API URL, e.g. http://localhost:5000/api/talents)
 npm start
 
