@@ -40,6 +40,6 @@ cd talent-directory
 - npm install
 - cp .env.example .env
 (Add your backend API URL, e.g. http://localhost:5000/api/talents)
-npm start
+-npm start
 
 
